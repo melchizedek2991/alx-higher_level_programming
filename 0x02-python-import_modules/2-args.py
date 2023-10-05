@@ -8,6 +8,7 @@ if __name__ == '__main__':
         print("0")
     elif argc == 1;
         print("1")
-    else ("{}".format(argc))
+    else:
+        print("{}".format(argc))
     for index in range(argc):
         print("{}: {}".format(index + 1, sys.argv[index + 1]))
